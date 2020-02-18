@@ -1,0 +1,17 @@
+version: '2'
+services:
+
+  phish:
+    image: matteoggl/gophish
+    ports:
+      - 3333:3333
+      - 8083:80
+    volumes:
+      - ./gophish.db:/opt/gophish-v0.6.0-linux-64bit/gophish.db
+
+  mailcatcher:
+    image: schickling/mailcatcher
+    ports: 
+      - 1080:1080
+      - 1025:1025
+
