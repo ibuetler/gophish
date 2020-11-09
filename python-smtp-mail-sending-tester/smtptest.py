@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """smtptest.py: command-line smtp test mail sender
 https://github.com/turbodog/python-smtp-mail-sending-tester
 
