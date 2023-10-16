@@ -1,2 +1,2 @@
 #smtptest.py [options] fromaddress toaddress serveraddress
-./smtptest.py -n 1025 -v ibuetler@hsr.ch ivan.buetler@gmail.com localhost
+./smtptest.py -n 1025 -v ivan.buetler@ost.ch ivan.buetler@gmail.com localhost
