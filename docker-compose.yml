@@ -7,7 +7,7 @@ services:
       - 3333:3333
       - 8083:80
     volumes:
-      - ./gophish.db:/opt/gophish-v0.6.0-linux-64bit/gophish.db
+      - ./gophish.db:/opt/gophish/gophish.db
 
   mailcatcher:
     image: schickling/mailcatcher
