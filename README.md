@@ -14,7 +14,8 @@ docker-compose up -d
 ```
 
 ### Ports
-* https://localhost:3333        (Web UI)
+* https://localhost:3333        (Web UI GoPhish)
+* http://localhost:1080		(Web UI Mail)
 * localhost 1025                (SMTP Port)
 
 

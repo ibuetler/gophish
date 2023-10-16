@@ -2,7 +2,7 @@ version: '2'
 services:
 
   phish:
-    image: matteoggl/gophish
+    image: gophish/gophish:latest
     ports:
       - 3333:3333
       - 8083:80
