@@ -10,7 +10,7 @@ password: compass
 
 ## Startup
 ```
-docker-compose up -d 
+docker compose up -d 
 ```
 
 ### Ports
